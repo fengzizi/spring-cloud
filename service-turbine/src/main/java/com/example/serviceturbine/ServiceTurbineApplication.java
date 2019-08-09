@@ -11,7 +11,7 @@ import org.springframework.cloud.netflix.turbine.EnableTurbine;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * 当我们有很多个服务的时候，这就需要聚合所以服务的Hystrix Dashboard的数据了。这就需要用到Spring Cloud的另一个组件了，即Hystrix Turbine
+ * 当我们有很多个服务的时候，这就需要聚合所有服务的Hystrix Dashboard的数据了。这就需要用到Spring Cloud的另一个组件了，即Hystrix Turbine
  */
 @SpringBootApplication
 @EnableEurekaClient
