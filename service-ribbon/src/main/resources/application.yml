@@ -7,3 +7,8 @@ server:
 spring:
   application:
     name: service-ribbon
+  zipkin:
+    base-url: http://127.0.0.1:8899  #zipkin服务端地址
+  sleuth:
+    sampler:
+      probability: 1.0  #调用链信息采样率
